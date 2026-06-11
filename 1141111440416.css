@@ -1,0 +1,189 @@
+body {
+    background-color: #fbf9cc;
+    background-image: url(img/bg.png);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 50px 70px;
+
+    /*background: #fbf9cc url(img/bg.png)repeat-x;*/
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    background: #6fbb9a;
+    color: rgb(245, 243, 243);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+.menu a:hover {
+    color: #ff705b;
+    text-decoration: none;
+}
+
+h1 {
+    width: 450px;
+    background-color: rgb(105, 231, 105);
+    color: rgb(76, 233, 233);
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #95dbbd;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 5);
+    background-image: linear-gradient(to margin, #6fbb9a, #4a9d79);
+    font-family: "Limelight", sans-serif;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: rgb(230, 159, 28);
+}
+
+.intro {
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: rgb(235, 240, 240);
+}
+
+.more {
+    text-align: right;
+}
+
+.more::after {
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.h {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: #6fbb9a;
+    border-radius: 5px 0 0 5px;
+}
+
+.h-sub {
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+
+.h-sub span {
+    font-weight: normal;
+}
+
+#intro>section+section {
+    margin-top: 80px;
+}
+
+a[target="_blank"]::after {
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a[href^="mailto:"]::after {
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.menu li {
+    list-style-type: none;
+    border: 1px solid #f00;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+
+.h-sub span {
+    font-weight: normal;
+}
+
+#contents>section+section {
+    margin-top: 80px;
+}
+
+a[target="_blank"]::after {
+    content: url (img/ico_blank-attr) margin-left 5px;
+    vertical-align: middle
+}
+
+a[href="mailto"]::after {
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#contents>section+section {
+    margin-top: 80px;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+a {
+    color: #df4839;
+}
+
+a:hover {
+    color: #ff705b;
+    text-decoration: none;
+}
+
+.more {
+    text-align: right;
+}
+
+.more::after {
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.imgL {
+
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+
+    clear: both;
+}
+
+#contents {
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+}
